@@ -1,0 +1,23 @@
+/* universal selectors */
+* {
+  color: pink;
+}
+/* element selector */
+h1 {
+  color: blue;
+}
+h2 {
+  color: green;
+}
+/* using id selector */
+#heading1 {
+  color: crimson;
+}
+#heading2 {
+  color: cyan;
+}
+
+/* using class selector */
+.myclass {
+  color: black;
+}
