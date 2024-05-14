@@ -1,0 +1,26 @@
+#box {
+  height: 350px;
+  width: 150px;
+  background-color: black;
+}
+#circle1 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 30px;
+}
+#circle2 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: 30px;
+}
+#circle3 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 30px;
+}
