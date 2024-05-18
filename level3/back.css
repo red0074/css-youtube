@@ -1,0 +1,23 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: cyan;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 2px;
+}
+#box1 {
+  background-image: url("butterfly.avif");
+  /* using background size */
+  background-size: cover;
+}
+#box2 {
+  background-image: url("butt0.avif");
+  background-size: contain;
+  /* using repeatproperty */
+  background-repeat: no-repeat;
+}
+#box3 {
+  background-image: url("buttt1.avif");
+  background-size: auto;
+}

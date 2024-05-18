@@ -1,0 +1,52 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  display: inline-block;
+}
+/* header/navbar */
+#box0 {
+  position: fixed;
+  width: 100vw;
+  height: 20px;
+}
+#box1 {
+  position: static;
+}
+#box2 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#box3 {
+  position: absolute;
+  top: 110px;
+}
+/* footer */
+#box4 {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  right: 0px;
+  left: 0px;
+}
+p {
+  /* height: 10100px; */
+}
+
+#box5 {
+  position: sticky;
+  top: 0;
+  left: 520px;
+}
+/* using of z index */
+#box6 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#box7 {
+  position: absolute;
+  z-index: 3;
+}
